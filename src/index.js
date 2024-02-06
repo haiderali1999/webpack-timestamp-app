@@ -33,7 +33,7 @@ function component() {
         const format = item.format()
         ancher.setAttribute("id", item.name)
         ancher.textContent = "[project url]/api/" + format
-        ancher.setAttribute("href", `http://localhost:8080/api/${format}`)
+        ancher.setAttribute("href", `https://time-stamp-backend.vercel.app/api/${format}`)
 
         li.appendChild(ancher)
         unOrderList.appendChild(li)
